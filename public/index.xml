@@ -94,24 +94,18 @@
       
       <guid>http://localhost:1313/pages/about/</guid>
       
-      <description>&lt;p&gt;I’m a backend-focused software engineer with strong interest in building scalable, reliable systems.&lt;/p&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
+      <description>&lt;p&gt;I’m a Python &amp;amp; Go–based AI backend developer and a 2025 B.Tech Computer Engineering graduate based in Ahmedabad, Gujarat. I focus on building scalable backend systems and AI-driven services that work under real-world constraints like performance, reliability, and deployment complexity.&lt;/p&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;what-i-work-on&#34;&gt;What I work on&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Designing and building REST &amp;amp; API-driven backends&lt;/li&gt;
-&lt;li&gt;AI-powered systems using LLMs and vision models&lt;/li&gt;
-&lt;li&gt;Agent-based workflows and orchestration&lt;/li&gt;
-&lt;li&gt;Performance, cost, and production constraints&lt;/li&gt;
+&lt;li&gt;Design and build backend microservices using Python and Go&lt;/li&gt;
+&lt;li&gt;Develop and integrate REST APIs for data-intensive and AI-powered applications&lt;/li&gt;
+&lt;li&gt;Work with cloud platforms and managed services for deployment and scalability&lt;/li&gt;
+&lt;li&gt;Build AI systems involving retrieval, agents, and real-time inference&lt;/li&gt;
+&lt;li&gt;Debug and optimize distributed systems and data pipelines&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Python, Go, JavaScript&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; REST APIs, background jobs, authentication&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Databases:&lt;/strong&gt; PostgreSQL, Redis, MongoDB&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AI/ML:&lt;/strong&gt; LLM APIs, image &amp;amp; video pipelines&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Infra:&lt;/strong&gt; Docker, Linux, cloud deployment&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I enjoy working close to real-world constraints—latency, cost, safety, and scale—and turning ideas into production-ready systems.&lt;/p&gt;</description>
+&lt;h3 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Go, Python, JavaScript, HTML, CSS,&lt;/p&gt;</description>
       
     </item>
     
