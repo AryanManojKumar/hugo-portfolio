@@ -1,0 +1,48 @@
+# Netlify configuration for Hugo portfolio deployment
+# This file enables automatic deployment from GitHub to Netlify
+
+[build]
+  # Directory to publish (Hugo's default output directory)
+  publish = "public"
+  
+  # Build command - generates the static site
+  command = "hugo --gc --minify"
+
+[build.environment]
+  # Hugo version - using your installed version
+  # Update this if you need a specific Hugo version
+  HUGO_VERSION = "0.154.1"
+  
+  # Go version (required by Hugo)
+  GO_VERSION = "1.22.1"
+  
+  # Node version (for any npm dependencies if needed)
+  NODE_VERSION = "20"
+
+[context.production.environment]
+  # Production-specific Hugo flags
+  HUGO_ENV = "production"
+
+[context.deploy-preview]
+  # Build command for deploy previews (pull requests)
+  # Uses the deploy preview URL as base URL
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  # Build command for branch deploys
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+# Redirect rules (optional)
+# Uncomment and modify if you need custom redirects
+# [[redirects]]
+#   from = "/old-path"
+#   to = "/new-path"
+#   status = 301
+
+# Headers (optional)
+# Uncomment to add custom headers
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     X-Frame-Options = "DENY"
+#     X-XSS-Protection = "1; mode=block"

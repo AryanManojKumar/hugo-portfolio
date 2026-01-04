@@ -52,9 +52,3 @@ Indus University, Ahmedabad *(2022 – 2025)*
 LJ Polytechnic, GTU *(2019 – 2022)*  
 
 ----
-### Learning & Exploration
-Alongside post work, I actively document my learning and experiments in backend engineering, AI systems, and cloud technologies.  
-This includes concept notes, small prototypes, and hands-on explorations while working with Python and  Go.
-
-🔗 For Golang: https://github.com/aryanManojKumar/golang  
- 🔗 For Python: https://github.com/AryanManojKumar/python-playground
