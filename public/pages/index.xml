@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Awesome Hugo blog</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Awesome Hugo blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/about/</guid>
+      
+      <description>&lt;p&gt;I’m a backend-focused software engineer with strong interest in building scalable, reliable systems.&lt;/p&gt;
+&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
+&lt;h3 id=&#34;what-i-work-on&#34;&gt;What I work on&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing and building REST &amp;amp; API-driven backends&lt;/li&gt;
+&lt;li&gt;AI-powered systems using LLMs and vision models&lt;/li&gt;
+&lt;li&gt;Agent-based workflows and orchestration&lt;/li&gt;
+&lt;li&gt;Performance, cost, and production constraints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Python, Go, JavaScript&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; REST APIs, background jobs, authentication&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Databases:&lt;/strong&gt; PostgreSQL, Redis, MongoDB&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI/ML:&lt;/strong&gt; LLM APIs, image &amp;amp; video pipelines&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Infra:&lt;/strong&gt; Docker, Linux, cloud deployment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I enjoy working close to real-world constraints—latency, cost, safety, and scale—and turning ideas into production-ready systems.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
