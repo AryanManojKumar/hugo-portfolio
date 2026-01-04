@@ -243,7 +243,7 @@ The contents of this partial will be inserted at the end of the `<head>` section
 
 ## Content
 
-### Posts
+### posts
 
 To create a new post, run the following command:
 

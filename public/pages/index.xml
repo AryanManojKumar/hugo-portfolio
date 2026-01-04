@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Awesome Hugo blog</title>
+    <title>Pages on Portfolio</title>
     <link>http://localhost:1313/pages/</link>
-    <description>Recent content in Pages on Awesome Hugo blog</description>
+    <description>Recent content in Pages on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -23,10 +23,9 @@
 &lt;li&gt;Build AI systems involving retrieval, agents, and real-time inference&lt;/li&gt;
 &lt;li&gt;Debug and optimize distributed systems and data pipelines&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h3 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Go, Python, JavaScript, HTML, CSS,&lt;/p&gt;</description>
       
     </item>
     

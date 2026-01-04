@@ -1,33 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Awesome Hugo blog</title>
+    <title>post on Portfolio</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Awesome Hugo blog</description>
+    <description>Recent content in post on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Table of content</title>
+      <title>RSS Web Scraper — Go-Based Backend Aggregation Service</title>
       <link>http://localhost:1313/posts/table-of-content/</link>
-      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/table-of-content/</guid>
       
-      <description>&lt;h2 id=&#34;table-of-content&#34;&gt;Table of content&lt;/h2&gt;
-&lt;p&gt;This theme supports displaying table of content (ToC) in blog posts.&lt;/p&gt;
-&lt;h2 id=&#34;parameters&#34;&gt;Parameters&lt;/h2&gt;
-&lt;p&gt;You can manage a ToC with two parameters:&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;RSS Web Scraper&lt;/strong&gt; is a &lt;strong&gt;backend service built in Go&lt;/strong&gt; that aggregates RSS feeds, manages user subscriptions, and continuously scrapes content in the background.&lt;br&gt;
+It exposes a &lt;strong&gt;RESTful API&lt;/strong&gt; with &lt;strong&gt;API key–based authentication&lt;/strong&gt;, enabling users to create accounts, add feeds, follow sources, and retrieve aggregated posts.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/AryanManojKumar/RSS-Web-Scraper&#34;&gt;https://github.com/AryanManojKumar/RSS-Web-Scraper&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;global &lt;code&gt;toc&lt;/code&gt; parameter;&lt;/li&gt;
-&lt;li&gt;post &lt;code&gt;toc&lt;/code&gt; parameter.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RESTful API Design&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create users and issue API keys&lt;/li&gt;
+&lt;li&gt;Add RSS feed sources&lt;/li&gt;
+&lt;li&gt;Follow and unfollow feeds&lt;/li&gt;
+&lt;li&gt;Retrieve aggregated posts per user&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The post &lt;code&gt;toc&lt;/code&gt; parameter has higher priority than the global &lt;code&gt;toc&lt;/code&gt; parameter.&lt;/p&gt;
-&lt;h2 id=&#34;enable-table-of-content-on-all-posts&#34;&gt;Enable table of content on all posts&lt;/h2&gt;
-&lt;p&gt;To enable ToC on all posts (globally) set parameter &lt;code&gt;toc&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in &lt;code&gt;hugo.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;toc&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To disable ToC globally, simply ignore the &lt;code&gt;toc&lt;/code&gt; parameter or set it to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;</description>
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Authentication&lt;/strong&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>StudyClock — Cloud-Synced Study &amp; Productivity Tracker</title>
+      <link>http://localhost:1313/posts/emoji-support/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/emoji-support/</guid>
+      
+      <description>&lt;p&gt;&lt;strong&gt;StudyClock&lt;/strong&gt; is a web-based productivity and study tracking application designed to help learners build consistent study habits through &lt;strong&gt;time tracking, goal setting, and cloud-synced session history&lt;/strong&gt;.&lt;br&gt;
+The application supports &lt;strong&gt;Google authentication&lt;/strong&gt;, allowing users to securely access their study data across devices.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;strong&gt;Live Demo:&lt;/strong&gt; &lt;a href=&#34;https://productivity-clock-f226a.web.app/&#34;&gt;https://productivity-clock-f226a.web.app/&lt;/a&gt;&lt;br&gt;
+🔗 &lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/AryanManojKumar/StudyClock&#34;&gt;https://github.com/AryanManojKumar/StudyClock&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Authentication:&lt;/strong&gt; Secure sign-in using Google OAuth for personalized user sessions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud Sync:&lt;/strong&gt; Study sessions and progress stored in &lt;strong&gt;Firebase Firestore&lt;/strong&gt;, accessible across devices&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Study Timer:&lt;/strong&gt; Start, pause, and track focused study sessions in real time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Daily Goals:&lt;/strong&gt; Set daily study targets and visualize progress toward completion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session History:&lt;/strong&gt; Persistent log of study sessions with timestamps&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Live Clock UI:&lt;/strong&gt; Real-time clock display to reinforce time awareness and discipline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; React&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Styling:&lt;/strong&gt; Tailwind CSS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authentication:&lt;/strong&gt; Firebase Google Auth&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database:&lt;/strong&gt; Firebase Firestore&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hosting:&lt;/strong&gt; Firebase Hosting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;what-this-post-demonstrates&#34;&gt;What This post Demonstrates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Building &lt;strong&gt;authentication-based user flows&lt;/strong&gt; using OAuth&lt;/li&gt;
+&lt;li&gt;Designing &lt;strong&gt;stateful frontend applications&lt;/strong&gt; with persistent backend storage&lt;/li&gt;
+&lt;li&gt;Integrating &lt;strong&gt;cloud databases&lt;/strong&gt; for real-time sync and data consistency&lt;/li&gt;
+&lt;li&gt;Deploying and maintaining a &lt;strong&gt;production-ready web application&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       
     </item>
     
@@ -38,7 +82,7 @@
       
       <guid>http://localhost:1313/posts/math-typesetting/</guid>
       
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using
+      <description>&lt;p&gt;Mathematical notation in a Hugo post can be enabled by using
 &lt;a href=&#34;https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html&#34;&gt;third party JavaScript libraries&lt;/a&gt;.&lt;/p&gt;</description>
       
     </item>
@@ -73,17 +117,6 @@
       <guid>http://localhost:1313/posts/placeholder-text/</guid>
       
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/posts/emoji-support/</link>
-      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/emoji-support/</guid>
-      
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
       
     </item>
     

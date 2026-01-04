@@ -78,7 +78,7 @@
 # /////////Exclude files from exporting////////
 # You can tell Git not to export certain files or directories when generating an archive.
 # If there is a subdirectory or file that you don’t want to include in your archive file but that,
-# you do want checked into your project, you can determine those files via the export-ignore attribute.
+# you do want checked into your post, you can determine those files via the export-ignore attribute.
 
 # .gitattributes export-ignore
 # .gitignore     export-ignore

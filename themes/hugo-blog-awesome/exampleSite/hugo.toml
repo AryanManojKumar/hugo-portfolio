@@ -64,7 +64,7 @@ theme = "hugo-blog-awesome"
     weight = 10
   [[Languages.en-gb.menu.main]]
     pageRef="posts"
-    name = 'Posts'
+    name = 'posts'
     url = '/posts/'
     weight = 20
   [[Languages.en-gb.menu.main]]

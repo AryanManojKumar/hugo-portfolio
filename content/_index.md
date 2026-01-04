@@ -2,4 +2,11 @@
 title: "Aryan Singh"
 ---
 
-Backend Engineer focused on APIs, AI systems, and scalable backend architecture.
+<div class="tech-logos">
+        <a href="https://github.com/AryanManojKumar?tab=repositories&q=&type=&language=python&sort=" target="_blank" rel="noopener noreferrer">
+    <img src="/icons/python.png" alt="Python" title="Python" />
+  </a>
+        <a href="https://github.com/AryanManojKumar?tab=repositories&q=&type=&language=go&sort=" target="_blank" rel="noopener noreferrer">
+    <img src="/icons/Go.png" alt="Go" title="Go" />
+  </a>
+        </div>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-gb"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Anomaly Detection System — Real-Time AI-Powered Video Monitoring | Portfolio</title>
+<meta property="og:title" content="Anomaly Detection System — Real-Time AI-Powered Video Monitoring | Portfolio" />
+<meta name="twitter:title" content="Anomaly Detection System — Real-Time AI-Powered Video Monitoring | Portfolio" />
+<meta itemprop="name" content="Anomaly Detection System — Real-Time AI-Powered Video Monitoring | Portfolio" />
+<meta name="application-name" content="Anomaly Detection System — Real-Time AI-Powered Video Monitoring | Portfolio" />
+<meta property="og:site_name" content="Awesome hugo blog" />
+
+<meta name="description" content="A Go-based RSS aggregation backend with REST APIs, API key authentication, background scraping workers, and postgreSQL persistence.">
+<meta itemprop="description" content="A Go-based RSS aggregation backend with REST APIs, API key authentication, background scraping workers, and postgreSQL persistence." />
+<meta property="og:description" content="A Go-based RSS aggregation backend with REST APIs, API key authentication, background scraping workers, and postgreSQL persistence." />
+<meta name="twitter:description" content="A Go-based RSS aggregation backend with REST APIs, API key authentication, background scraping workers, and postgreSQL persistence." />
+
+<meta property="og:locale" content="en-gb" />
+<meta name="language" content="en-gb" />
+
+  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/projects/anomaly-detection-system/" title="English" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.154.1">
+
+    
+    <meta property="og:url" content="http://localhost:1313/projects/anomaly-detection-system/">
+  <meta property="og:site_name" content="Portfolio">
+  <meta property="og:title" content="Anomaly Detection System — Real-Time AI-Powered Video Monitoring">
+  <meta property="og:description" content="A Go-based RSS aggregation backend with REST APIs, API key authentication, background scraping workers, and postgreSQL persistence.">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2025-10-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-10-08T00:00:00+00:00">
+
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Anomaly Detection System — Real-Time AI-Powered Video Monitoring">
+  <meta name="twitter:description" content="A Go-based RSS aggregation backend with REST APIs, API key authentication, background scraping workers, and postgreSQL persistence.">
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/projects/anomaly-detection-system/">
+    <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+    <meta name="color-scheme" content="light dark">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+      
+
+  
+  
+    
+    <link href="/css/custom.css" rel="stylesheet">
+  
+
+
+
+    
+</head>
+<body data-theme = "dark" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>Home</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/projects/">
+                        Projects
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/about/">
+                        About
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Anomaly Detection System — Real-Time AI-Powered Video Monitoring</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2025-10-08T00:00:00&#43;00:00" itemprop="datePublished"> 8 Oct 2025 </time>
+                </div>
+                
+            </header>
+            
+    
+    <details class="toc" ZgotmplZ>
+        <summary><b>Table of Contents</b></summary>
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#key-capabilities">Key Capabilities</a></li>
+        <li><a href="#architecture-overview">Architecture Overview</a></li>
+        <li><a href="#tech-stack">Tech Stack</a></li>
+        <li><a href="#hackathon--recognition">Hackathon &amp; Recognition</a></li>
+        <li><a href="#what-this-project-demonstrates">What This Project Demonstrates</a></li>
+        <li><a href="#demo--media">Demo &amp; Media</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </details>
+            <div class="page-content">
+                <p>The <strong>Anomaly Detection System</strong> is an <strong>AI-powered real-time video analysis platform</strong> designed to detect, classify, and prioritize anomalies in live or recorded video streams.<br>
+The system combines <strong>computer vision</strong>, <strong>LLM-driven reasoning</strong>, and <strong>cloud-based agent orchestration</strong> to provide actionable insights with severity assessment.</p>
+<p>🔗 <strong>GitHub:</strong> <a href="https://github.com/AryanManojKumar/Anomaly-detection-system">https://github.com/AryanManojKumar/Anomaly-detection-system</a><br>
+🎥 <strong>Demo Video:</strong></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZFDPh5f-_38?si=Ei94NW4QEo-p4YCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
+<h3 id="key-capabilities">Key Capabilities</h3>
+<p><strong>Real-Time Video Analysis</strong></p>
+<ul>
+<li>Processes live video feeds and recorded streams using computer vision models</li>
+<li>Detects anomalous activities and visual irregularities in near real time</li>
+</ul>
+<p><strong>Multi-Category Anomaly Detection</strong></p>
+<ul>
+<li>Supports multiple anomaly classes (e.g., suspicious behavior, crowd issues, safety risks)</li>
+<li>Designed for large-scale surveillance and event monitoring scenarios</li>
+</ul>
+<p><strong>Severity Classification Pipeline</strong></p>
+<ul>
+<li>Five-level severity assessment (<strong>Low → Emergency</strong>)</li>
+<li>Confidence scoring for each detected anomaly</li>
+<li>Helps prioritize alerts and reduce false positives</li>
+</ul>
+<p><strong>Multi-Agent AI Architecture</strong></p>
+<ul>
+<li>Central orchestrator coordinates vision analysis, reasoning, and validation</li>
+<li>Specialized agents handle detection, classification, and safety verification</li>
+<li>Modular design allows easy extension with new anomaly types</li>
+</ul>
+<p><strong>Admin Dashboard &amp; Event Management</strong></p>
+<ul>
+<li>Web-based admin panel for reviewing detected anomalies</li>
+<li>Event tracking and incident categorization</li>
+<li>Volunteer / responder assignment based on anomaly type and severity</li>
+</ul>
+<hr>
+<h3 id="architecture-overview">Architecture Overview</h3>
+<ul>
+<li><strong>Video Ingestion Layer:</strong> Live camera feeds or uploaded video streams</li>
+<li><strong>Vision Layer:</strong> Computer vision models for frame-level analysis</li>
+<li><strong>Reasoning Layer:</strong> LLM-based agents refine detections and assign severity</li>
+<li><strong>Decision Layer:</strong> Central evaluator aggregates results and confidence scores</li>
+<li><strong>Dashboard Layer:</strong> Admin interface for monitoring and response coordination</li>
+</ul>
+<p>This layered approach ensures <strong>scalability, fault isolation, and extensibility</strong>.</p>
+<hr>
+<h3 id="tech-stack">Tech Stack</h3>
+<ul>
+<li><strong>Language:</strong> Python</li>
+<li><strong>Backend:</strong> Flask</li>
+<li><strong>AI &amp; Vision:</strong> OpenCV, Google Gemini Vision APIs</li>
+<li><strong>Agent Orchestration:</strong> Vertex AI Agent Builder, LLM-based workflows</li>
+<li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+<li><strong>Cloud:</strong> Google Cloud Platform (GCP)</li>
+</ul>
+<hr>
+<h3 id="hackathon--recognition">Hackathon &amp; Recognition</h3>
+<ul>
+<li><strong>Google Cloud Agentic AI Day — Bangalore (2025)</strong><br>
+<strong>Finalist</strong>
+<ul>
+<li>Built and demonstrated this system in a competitive, real-world problem setting</li>
+<li>Focused on scalability, safety, and actionable intelligence from video data</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="what-this-project-demonstrates">What This Project Demonstrates</h3>
+<ul>
+<li>Designing <strong>end-to-end AI systems</strong> for real-time video analysis</li>
+<li>Combining <strong>computer vision and LLM reasoning</strong></li>
+<li>Building <strong>agentic AI architectures</strong> with clear responsibility boundaries</li>
+<li>Implementing <strong>severity-aware alerting pipelines</strong></li>
+<li>Translating AI output into <strong>operational decision-making tools</strong></li>
+</ul>
+<hr>
+<h3 id="demo--media">Demo &amp; Media</h3>
+<p>🎥 <strong>YouTube Demo:</strong> <em>Add your demo link here</em><br>
+📸 <em>(Optional)</em> Screenshots or GIFs showing dashboard and detections</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/AryanManojKumar" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="/index.xml" target="_blank" rel="noopener noreferrer me"
+    title="Rss">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2026 Aryan.
+        made using hugo.
+    </small>
+</footer><a href="#" title="Go to top" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>

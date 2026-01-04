@@ -1,4 +1,4 @@
-title = "Awesome Hugo blog"
+title = "Portfolio"
 baseURL = 'https://hba.sid.one/'
 
 # This is what goes in <html lang="">
@@ -63,9 +63,9 @@ theme = "hugo-blog-awesome"
     url = '/'
     weight = 10
   [[Languages.en-gb.menu.main]]
-    pageRef="posts"
-    name = 'Posts'
-    url = '/posts/'
+    pageRef="projects"
+    name = 'Projects'
+    url = '/projects/'
     weight = 20
   [[Languages.en-gb.menu.main]]
     pageRef="about"
@@ -80,11 +80,12 @@ theme = "hugo-blog-awesome"
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
   description = "Minimal Hugo blog theme with light and dark mode support"
-  mainSections = ['posts']
+  mainSections = ['projects']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
+  additionalStylesheets = ["css/custom.css"]
   # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
   # Your custom scripts will be concatenated to one file `custom.js`.
   # When building for production it will be minified.
@@ -92,15 +93,17 @@ theme = "hugo-blog-awesome"
   dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
   # See https://gohugo.io/functions/time/format/ for available date formats.
   rssFeedDescription = "summary" # available options: 1) summary 2) full
-  # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
-  # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
+  # summary - includes a short summary of the blog projects in the RSS feed. Generated using Hugo .Summary .
+  # full - includes full blog projects in the RSS feed. Generated using Hugo .Content .
   # By default (or if nothing is specified), summary is used.
 
 [Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Aryan Kumar Singh"
+
   name = "Aryan"
+
   description = "AI backend developer specializing in Python and Go, and a 2025 B.Tech Computer Engineering graduate."
 
 # Allow to override webmanifest options
@@ -120,11 +123,9 @@ theme = "hugo-blog-awesome"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/AryanManojKumar"
 
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com"
+
 
 [[params.socialIcons]]
 name = "Rss"

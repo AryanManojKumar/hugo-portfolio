@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Portfolio</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UGC Video Creator — Agentic AI System for Content Generation</title>
+      <link>http://localhost:1313/projects/ugc/</link>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/ugc/</guid>
+      
+      <description>&lt;p&gt;&lt;strong&gt;UGC Video Creator&lt;/strong&gt; is an &lt;strong&gt;agentic AI-powered content generation system&lt;/strong&gt; that transforms a single reference image into &lt;strong&gt;brand-safe UGC-style images and short-form videos&lt;/strong&gt;.&lt;br&gt;
+The system is designed to handle &lt;strong&gt;real-world content constraints&lt;/strong&gt;, including brand safety, pose variation, identity consistency, and platform compliance.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/AryanManojKumar/UGC_video_creator&#34;&gt;https://github.com/AryanManojKumar/UGC_video_creator&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;core-capabilities&#34;&gt;Core Capabilities&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Agentic AI Architecture&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Central &lt;strong&gt;orchestrator agent&lt;/strong&gt; routes tasks to specialized agents&lt;/li&gt;
+&lt;li&gt;Modular agent design allows independent reasoning and validation steps&lt;/li&gt;
+&lt;li&gt;Agents operate under strict system instructions to enforce constraints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Multi-Agent Workflow&lt;/strong&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Anomaly Detection System — Real-Time AI-Powered Video Monitoring</title>
+      <link>http://localhost:1313/projects/anomaly-detection-system/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/anomaly-detection-system/</guid>
+      
+      <description>&lt;p&gt;The &lt;strong&gt;Anomaly Detection System&lt;/strong&gt; is an &lt;strong&gt;AI-powered real-time video analysis platform&lt;/strong&gt; designed to detect, classify, and prioritize anomalies in live or recorded video streams.&lt;br&gt;
+The system combines &lt;strong&gt;computer vision&lt;/strong&gt;, &lt;strong&gt;LLM-driven reasoning&lt;/strong&gt;, and &lt;strong&gt;cloud-based agent orchestration&lt;/strong&gt; to provide actionable insights with severity assessment.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/AryanManojKumar/Anomaly-detection-system&#34;&gt;https://github.com/AryanManojKumar/Anomaly-detection-system&lt;/a&gt;&lt;br&gt;
+🎥 &lt;strong&gt;Demo Video:&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ZFDPh5f-_38?si=Ei94NW4QEo-p4YCE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-capabilities&#34;&gt;Key Capabilities&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Real-Time Video Analysis&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Processes live video feeds and recorded streams using computer vision models&lt;/li&gt;
+&lt;li&gt;Detects anomalous activities and visual irregularities in near real time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Multi-Category Anomaly Detection&lt;/strong&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>RSS Web Scraper — Go-Based Backend Aggregation Service</title>
+      <link>http://localhost:1313/projects/rss-web-scraper/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/rss-web-scraper/</guid>
+      
+      <description>&lt;p&gt;&lt;strong&gt;RSS Web Scraper&lt;/strong&gt; is a &lt;strong&gt;backend service built in Go&lt;/strong&gt; that aggregates RSS feeds, manages user subscriptions, and continuously scrapes content in the background.&lt;br&gt;
+It exposes a &lt;strong&gt;RESTful API&lt;/strong&gt; with &lt;strong&gt;API key–based authentication&lt;/strong&gt;, enabling users to create accounts, add feeds, follow sources, and retrieve aggregated posts.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/AryanManojKumar/RSS-Web-Scraper&#34;&gt;https://github.com/AryanManojKumar/RSS-Web-Scraper&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RESTful API Design&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create users and issue API keys&lt;/li&gt;
+&lt;li&gt;Add RSS feed sources&lt;/li&gt;
+&lt;li&gt;Follow and unfollow feeds&lt;/li&gt;
+&lt;li&gt;Retrieve aggregated posts per user&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Authentication&lt;/strong&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Gym Buddy</title>
+      <link>http://localhost:1313/projects/placeholder-text/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/placeholder-text/</guid>
+      
+      <description>&lt;h2 id=&#34;gym-buddy--ai-assisted-fitness--workout-recommendation-app&#34;&gt;Gym Buddy — AI-Assisted Fitness &amp;amp; Workout Recommendation App&lt;/h2&gt;
+&lt;p&gt;*Final Year B.Tech Project *&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gym Buddy&lt;/strong&gt; is a &lt;strong&gt;cross-platform mobile fitness application&lt;/strong&gt; built using &lt;strong&gt;React Native&lt;/strong&gt;, designed to help users plan workouts, track fitness activity, and receive &lt;strong&gt;AI-assisted exercise recommendations&lt;/strong&gt; based on selected muscle groups and available equipment.&lt;br&gt;
+The app integrates &lt;strong&gt;LLM-powered guidance&lt;/strong&gt; with &lt;strong&gt;cloud-backed data synchronization&lt;/strong&gt; to deliver a personalized and accessible fitness experience.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-capabilities&#34;&gt;Key Capabilities&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Personalized Workout Recommendations&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recommends exercises based on &lt;strong&gt;target muscle groups&lt;/strong&gt; and &lt;strong&gt;available gym equipment&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Designed to support beginners and intermediate users without predefined workout plans&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;AI-Powered Fitness Assistant&lt;/strong&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>StudyClock — Cloud-Synced Study &amp; Productivity Tracker</title>
+      <link>http://localhost:1313/projects/studyclock/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/studyclock/</guid>
+      
+      <description>&lt;p&gt;&lt;strong&gt;StudyClock&lt;/strong&gt; is a web-based productivity and study tracking application designed to help learners build consistent study habits through &lt;strong&gt;time tracking, goal setting, and cloud-synced session history&lt;/strong&gt;.&lt;br&gt;
+The application supports &lt;strong&gt;Google authentication&lt;/strong&gt;, allowing users to securely access their study data across devices.&lt;/p&gt;
+&lt;p&gt;🔗 &lt;strong&gt;Live Demo:&lt;/strong&gt; &lt;a href=&#34;https://productivity-clock-f226a.web.app/&#34;&gt;https://productivity-clock-f226a.web.app/&lt;/a&gt;&lt;br&gt;
+🔗 &lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/AryanManojKumar/StudyClock&#34;&gt;https://github.com/AryanManojKumar/StudyClock&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Authentication:&lt;/strong&gt; Secure sign-in using Google OAuth for personalized user sessions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud Sync:&lt;/strong&gt; Study sessions and progress stored in &lt;strong&gt;Firebase Firestore&lt;/strong&gt;, accessible across devices&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Study Timer:&lt;/strong&gt; Start, pause, and track focused study sessions in real time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Daily Goals:&lt;/strong&gt; Set daily study targets and visualize progress toward completion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session History:&lt;/strong&gt; Persistent log of study sessions with timestamps&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Live Clock UI:&lt;/strong&gt; Real-time clock display to reinforce time awareness and discipline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; React&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Styling:&lt;/strong&gt; Tailwind CSS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authentication:&lt;/strong&gt; Firebase Google Auth&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Database:&lt;/strong&gt; Firebase Firestore&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hosting:&lt;/strong&gt; Firebase Hosting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;what-this-post-demonstrates&#34;&gt;What This post Demonstrates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Building &lt;strong&gt;authentication-based user flows&lt;/strong&gt; using OAuth&lt;/li&gt;
+&lt;li&gt;Designing &lt;strong&gt;stateful frontend applications&lt;/strong&gt; with persistent backend storage&lt;/li&gt;
+&lt;li&gt;Integrating &lt;strong&gt;cloud databases&lt;/strong&gt; for real-time sync and data consistency&lt;/li&gt;
+&lt;li&gt;Deploying and maintaining a &lt;strong&gt;production-ready web application&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

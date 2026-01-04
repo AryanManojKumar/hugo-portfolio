@@ -28,7 +28,7 @@ You can take a look at this [Pull request](https://github.com/hugo-sid/hugo-blog
 
 ## Commits
 
-This project adheres to [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
+This post adheres to [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ## Releases
 
@@ -39,7 +39,7 @@ We use [Semantic Versioning](https://semver.org/) for releases.
 You don't have to edit the `CHANGELOG.md` file. The changelong is auto generated. A GitHub action workflow is in place, which:
 
 - analyses the commits (from last release)
-- determines the version to bump (it's doable since this project adheres to conventional commit specification)
+- determines the version to bump (it's doable since this post adheres to conventional commit specification)
 - updates the changelog
 - creates a git tag corresponding to the version
 

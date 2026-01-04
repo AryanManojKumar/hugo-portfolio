@@ -1,0 +1,49 @@
+
+/* Tech logos styling */
+.tech-logos {
+  display: flex;
+  gap: 27px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+}
+
+.tech-logos img {
+  height: 50px;
+  width: auto;
+  max-width: 70px;
+  opacity: 0.85;
+  transition: all 0.3s ease;
+  filter: grayscale(20%);
+  object-fit: contain;
+}
+
+.tech-logos img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: translateY(-2px);
+}
+
+/* Author content spacing */
+.author-content {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.author-content p {
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .tech-logos {
+    gap: 1px;
+    margin-top: 20px;
+  }
+  
+  .tech-logos img {
+    height: 100 px;
+  }
+}

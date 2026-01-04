@@ -1,0 +1,14 @@
+{{/* Load custom stylesheets */}}
+{{ range .Site.Params.additionalStylesheets }}
+  {{ $css := resources.Get . }}
+  {{ if $css }}
+    {{ if hugo.IsProduction }}
+      {{ $css = $css | minify | fingerprint }}
+    {{ end }}
+    <link href="{{ $css.RelPermalink }}" rel="stylesheet">
+  {{ else }}
+    {{/* Fallback: try loading from static if not found in assets */}}
+    <link href="/{{ . }}" rel="stylesheet">
+  {{ end }}
+{{ end }}
+
