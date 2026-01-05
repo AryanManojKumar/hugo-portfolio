@@ -1,5 +1,5 @@
 title = "Portfolio"
-baseURL = 'https://hba.sid.one/'
+baseURL = 'https://aryankumarsingh.netlify.app/'
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
